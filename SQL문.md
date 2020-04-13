@@ -6,10 +6,14 @@ SELECT 칼럼명 FROM 테이블명
 
 [WHERE 조건]
 
-[ORDER BY 칼럼명 [ASC | DESC]]
+[GROUP BY Group대상]
 
-[GROUP BY 칼럼명 [HAVING 조건]];
+[ORDER BY 정렬대상 [ASC/DESC]];
 ```
+
+- Aggregate Function (집계함수)  
+GROUP BY절의 의미는 그룹 함수를 GROUP BY절에 지정된 컬럼의 값이 같은 행에 대해서 통계 정보를 계산하라는 의미이다.
+
 
 ### 2) INSERT
 ```
@@ -108,3 +112,4 @@ null | 6
 [INNER JOIN과 OUTER JOIN의 차이](https://jetalog.net/28)  
 [INNER JOIN, LEFT JOIN(OUTER JOIN) 비교 이너조인, 아우터조인](https://aljjabaegi.tistory.com/13)  
 [JOIN의 종류설명 및 사용법 & 예제](https://coding-factory.tistory.com/87)  
+[집계함수(Aggregate function)의 이해](http://www.gurubee.net/lecture/1031)
